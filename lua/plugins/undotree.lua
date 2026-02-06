@@ -1,6 +1,6 @@
 return {
   "mbbill/undotree",
-  vim.keymap.set("n", "<leader>u", vim.cmd.UndotreeToggle, { desc = "Open [U]ndo tree" }),
+  vim.keymap.set("n", "<leader>zu", vim.cmd.UndotreeToggle, { desc = "Open [U]ndo tree" }),
   -- Enable persistent undo with Lua config
   config = function()
     vim.opt.undofile = true
