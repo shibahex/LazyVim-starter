@@ -11,4 +11,12 @@ return {
   { "armannikoyan/rusty" },
   { "Mofiqul/adwaita.nvim" },
   { "sainnhe/edge" },
+
+  -- Configure LazyVim to load a theme
+  {
+    "LazyVim/LazyVim",
+    opts = {
+      colorscheme = "material-darker",
+    },
+  },
 }
