@@ -6,6 +6,11 @@ return {
         client = "neovim",
         tooltip = "linux btw",
       },
+      idle = {
+        enable = true,
+        show_status = true,
+        timeout = 180,
+      },
       text = {
         editing = function(opts)
           -- local current_tag = vim.fn['tagbar#currenttag']('%s', '', 'f')
