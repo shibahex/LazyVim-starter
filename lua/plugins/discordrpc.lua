@@ -9,7 +9,7 @@ return {
       idle = {
         enable = true,
         show_status = true,
-        timeout = 180,
+        timeout = 150000,
       },
       text = {
         editing = function(opts)
