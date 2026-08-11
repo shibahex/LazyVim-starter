@@ -8,7 +8,6 @@ return {
         "gopls",
         "rust-analyzer",
         "bacon-ls",
-        "luau-lsp",
       },
     },
   },
@@ -20,19 +19,6 @@ return {
         jedi_language_server = {},
         gopls = {},
         rust_analyzer = {},
-        luau_lsp = {
-          settings = {
-            ["luau-lsp"] = {
-              platform = {
-                type = "roblox",
-              },
-              sourcemap = {
-                autogenerate = true,
-                rojoProjectFile = "default.project.json",
-              },
-            },
-          },
-        },
       },
     },
   },
