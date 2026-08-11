@@ -19,6 +19,7 @@ return {
         jedi_language_server = {},
         gopls = {},
         rust_analyzer = {},
+        bacon_ls = {},
       },
     },
   },
