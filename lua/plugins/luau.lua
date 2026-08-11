@@ -14,16 +14,11 @@ return {
     },
   },
   {
-    "mason-org/mason-lspconfig.nvim",
-    opts = {
-      automatic_enable = {
-        exclude = { "luau_lsp" },
-      },
-    },
-  },
-  {
     "neovim/nvim-lspconfig",
     opts = {
+      servers = {
+        luau_lsp = { enabled = false },
+      },
       capabilities = {
         workspace = {
           didChangeWatchedFiles = {
