@@ -24,8 +24,12 @@ return {
   {
     "neovim/nvim-lspconfig",
     opts = {
-      servers = {
-        luau_lsp = {},
+      capabilities = {
+        workspace = {
+          didChangeWatchedFiles = {
+            dynamicRegistration = true,
+          },
+        },
       },
     },
   },
