@@ -19,13 +19,6 @@ return {
       servers = {
         luau_lsp = { enabled = false },
       },
-      capabilities = {
-        workspace = {
-          didChangeWatchedFiles = {
-            dynamicRegistration = true,
-          },
-        },
-      },
     },
   },
 }
