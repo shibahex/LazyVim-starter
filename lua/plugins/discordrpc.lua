@@ -11,6 +11,9 @@ return {
         show_status = true,
         timeout = 150000,
       },
+      extensions = {
+        "tmux",
+      },
       text = {
         editing = function(opts)
           -- local current_tag = vim.fn['tagbar#currenttag']('%s', '', 'f')
