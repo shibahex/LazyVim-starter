@@ -8,7 +8,7 @@ return {
       },
       idle = {
         enable = true,
-        show_status = true,
+        show_status = false,
         timeout = 150000,
       },
       extensions = {
